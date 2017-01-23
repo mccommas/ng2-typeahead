@@ -2,6 +2,7 @@
   Typehead Demo Bootstrap 4
 </h1>
 <pre class="card card-block card-header">Model: {{selected | json}}</pre>
+<form>
 <input [(ngModel)]="selected"
        [typeahead]="states"
-       class="form-control">
+       class="form-control"></form>
